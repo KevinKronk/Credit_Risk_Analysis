@@ -1,4 +1,4 @@
-# Credit Risk Analysis with Supervised Machine Learning and Sampling Techniques
+# Credit Risk Analysis with Supervised ML and Sampling Techniques
 
 ## Overview - Purpose
 
