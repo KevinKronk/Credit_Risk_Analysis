@@ -2,6 +2,8 @@
 
 ## Overview - Purpose
 
+LendingClub is a peer to peer lending services company that has a dataset which tells us how likely someone is to be a credit risk. Because credit risk is an inherently unbalanced classification problem with good loans greatly outnumbering risky loans, we need to use techniques to address this problem. In this analysis we will try to oversample the data using Random Over Sampler and SMOTE algorithms. We will also try undersampling the data using the Cluster Centroids algorithm. Then we will use a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Finally, we will compare the results of the Balanced Random Forest Classifier and Easy Ensemble Classifier to predict credit risk. All of these methods will be evaluated for their balanced accuracy, confusion matrix, and an imbalanced classification report that tells us precision and recall. 
+
 ## Results
 
 Random Over Sampler
