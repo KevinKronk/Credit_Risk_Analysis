@@ -6,42 +6,42 @@ LendingClub is a peer to peer lending services company that has a dataset which 
 
 ## Results
 
-Random Over Sampler
+### Random Over Sampler
   - Balanced Accuracy: 0.657
   - Precision: high_risk 0.01, low_risk 1.00
   - Recall: high_risk 0.71, low_risk 0.60
   
   ![Random Over Sampler](Images/RandomOverSampler.png)
  
-SMOTE Oversampling
+### SMOTE Oversampling
   - Balanced Accuracy: 0.662
   - Precision: high_risk 0.01, low_risk 1.00
   - Recall: high_risk 0.63, low_risk 0.69
   
   ![SMOTE](Images/SMOTE.png)
 
-Cluster Centroids Undersampling
+### Cluster Centroids Undersampling
   - Balanced Accuracy: 0.544
   - Precision: high_risk 0.01, low_risk 1.00
   - Recall: high_risk 0.69, low_risk 0.40
   
   ![Cluster Centroids Undersampling](Images/ClusterCentroids.png)
  
-SMOTEENN Over Under Sampling
+### SMOTEENN Over Under Sampling
   - Balanced Accuracy: 0.645
   - Precision: high_risk 0.01, low_risk 1.00
   - Recall: high_risk 0.72, low_risk 0.57
   
   ![SMOTEEN](Images/SMOTEENN.png)
  
-Balanced Random Forest Classifier
+### Balanced Random Forest Classifier
   - Balanced Accuracy: 0.789
   - Precision: high_risk 0.03, low_risk 1.00
   - Recall: high_risk 0.70, low_risk 0.87
   
   ![Balanced Random Forest Classifier](Images/BalancedRandomForestClassifier.png)
  
-Easy Ensemble Classifier
+### Easy Ensemble Classifier
   - Balanced Accuracy: 0.932
   - Precision: high_risk 0.09, low_risk 1.00
   - Recall: high_risk 0.92, low_risk 0.94
